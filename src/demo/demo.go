@@ -3,6 +3,7 @@ package demo
 import (
 	"fmt"
 	"strconv"
+	"strings"
 )
 
 func Add(x, y int) int {
@@ -13,4 +14,5 @@ func Add(x, y int) int {
 
 func printLog(str string) {
 	fmt.Println(str)
+	fmt.Println(strings.EqualFold("a", "b"))
 }
