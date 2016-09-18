@@ -14,5 +14,5 @@ func Add(x, y int) int {
 
 func printLog(str string) {
 	fmt.Println(str)
-	fmt.Println(strings.EqualFold("a", "b"))
+	fmt.Println(strings.EqualFold("a", str))
 }
